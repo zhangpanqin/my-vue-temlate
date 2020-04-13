@@ -1,0 +1,4 @@
+/public/vendor
+build/*.js
+dist
+mock

@@ -16,7 +16,7 @@ export default {
     },
     async mounted() {
         await user.helloWord().then((data) => {
-            this.msg = JSON.stringify(data.data);
+            this.msg = JSON.stringify(data);
         });
     },
 };
